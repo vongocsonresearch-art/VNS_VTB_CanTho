@@ -1,0 +1,516 @@
+{
+  "brand": {
+    "name": "VietinBank",
+    "fullName": "Ngân hàng TMCP Công Thương Việt Nam",
+    "slogan": "Nâng giá trị cuộc sống",
+    "logo": "./assets/Logo_VietinBank.png",
+    "hotline": "1900 558 868",
+    "advisor": {
+      "name": "Trần Hoàng Trung",
+      "title": "Chuyên viên tư vấn",
+      "phone": "0973.874.232",
+      "displayPhone": "0973.874.232"
+    },
+    "businessHours": {
+      "weekday": "Sáng từ 07:30 AM đến 11:30 AM | Chiều từ 01:00 PM đến 04:30 PM (Thứ 2 - Thứ 6)",
+      "weekend": "Thứ 7 - Chủ nhật: Nghỉ giao dịch"
+    }
+  },
+  "messages": {
+    "welcome": "Chào mừng Quý khách đến với Quầy giao dịch VietinBank",
+    "faqQuestion": "Anh/chị đang gặp khó khăn với nội dung nào?",
+    "feedbackQuestion": "Anh/chị đã thực hiện ổn hay chưa?",
+    "feedbackSuccess": "Rất vui khi thông tin đã giúp ích được cho Quý khách!",
+    "feedbackNeedHelp": "Cảm ơn Quý khách đã phản hồi. Quý khách có thể liên hệ Chuyên viên tư vấn Trần Hoàng Trung – số điện thoại: 0973.874.232 để hỗ trợ trực tiếp. Em sẽ cố gắng cải thiện để phục vụ Quý khách tốt hơn!",
+    "endConversation": "Cảm ơn Quý khách đã sử dụng dịch vụ của VietinBank. Chúc Quý khách một ngày tốt lành!",
+    "interestedProduct": "Cảm ơn Quý khách đã quan tâm đến sản phẩm/dịch vụ này. Quý khách vui lòng liên hệ cán bộ VietinBank tại quầy để được tư vấn chi tiết.\nHoặc liên hệ Chuyên viên tư vấn Trần Hoàng Trung – 0973.874.232."
+  },
+  "navigation": [
+    {
+      "id": "faq",
+      "label": "Giải đáp thắc mắc",
+      "shortDesc": "Hỗ trợ Ipay, mật khẩu, sinh trắc học",
+      "icon": "HelpCircle"
+    },
+    {
+      "id": "download-ipay",
+      "label": "Tải App VietinBank iPay",
+      "shortDesc": "Mã QR & Link tải cho iOS & Android",
+      "icon": "Smartphone"
+    },
+    {
+      "id": "game",
+      "label": "Thử thách Game",
+      "shortDesc": "Chơi vui trong lúc chờ - Nhận xăng miễn phí",
+      "icon": "Gamepad2"
+    },
+    {
+      "id": "savings",
+      "label": "Tính lãi tiền gửi",
+      "shortDesc": "Ước tính lợi nhuận tiết kiệm có kỳ hạn",
+      "icon": "PiggyBank"
+    },
+    {
+      "id": "loan",
+      "label": "Lịch trả nợ khoản vay",
+      "shortDesc": "Kế hoạch trả nợ theo dư nợ giảm dần",
+      "icon": "Calculator"
+    },
+    {
+      "id": "featured",
+      "label": "Sản phẩm nổi bật",
+      "shortDesc": "Ưu đãi tài khoản, POS, tài sản bảo đảm",
+      "icon": "Sparkles",
+      "isHighlighted": true
+    },
+    {
+      "id": "branches",
+      "label": "Điểm giao dịch",
+      "shortDesc": "Tra cứu mạng lưới chi nhánh & PGD",
+      "icon": "MapPin"
+    }
+  ],
+  "faq": {
+    "title": "Giải đáp thắc mắc khách hàng",
+    "subtitle": "Anh/chị đang gặp khó khăn với nội dung nào?",
+    "items": [
+      {
+        "id": "forgot-password",
+        "title": "Hướng dẫn quên mật khẩu Ipay",
+        "description": "Các bước lấy lại mật khẩu đăng nhập ứng dụng VietinBank iPay nhanh chóng và an toàn.",
+        "videoUrl": "https://www.youtube.com/watch?v=86r0pxPOzbs",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Bước 1",
+            "content": "Ở màn hình đăng nhập, chọn 'Quên mật khẩu'.",
+            "image": "./assets/1.1.png"
+          },
+          {
+            "step": 2,
+            "title": "Bước 2",
+            "content": "Nhập tên đăng nhập và số điện thoại đăng ký, sau đó bấm 'Tiếp tục'.",
+            "image": "./assets/1.2.png"
+          },
+          {
+            "step": 3,
+            "title": "Bước 3",
+            "content": "Nhập mã OTP được gửi về tin nhắn SMS, sau đó bấm 'Tiếp tục'.",
+            "image": "./assets/1.3.png"
+          },
+          {
+            "step": 4,
+            "title": "Bước 4",
+            "content": "Xác thực khuôn mặt theo yêu cầu. Sau khi hoàn thành, iPay sẽ gửi mật khẩu mới về tin nhắn (SMS). Bấm đăng nhập iPay để tiếp tục.",
+            "image": "./assets/1.4.png"
+          },
+          {
+            "step": 5,
+            "title": "Bước 5",
+            "content": "Nhập mật khẩu theo yêu cầu:\n- Mật khẩu hiện tại: Nhập theo mật khẩu được gửi về tin nhắn (SMS)\n- Mật khẩu mới: Là mật khẩu mà khách hàng cần đổi\nBấm 'Tiếp tục'.",
+            "image": "./assets/1.5.png"
+          },
+          {
+            "step": 6,
+            "title": "Bước 6",
+            "content": "Thực hiện quét khuôn mặt để xác nhận đổi mật khẩu thành công.",
+            "image": "./assets/1.6.png"
+          }
+        ]
+      },
+      {
+        "id": "close-card",
+        "title": "Hướng dẫn đóng thẻ",
+        "description": "Hướng dẫn khách hàng thao tác đóng hoặc khóa thẻ trực tiếp ngay trên App VietinBank iPay.",
+        "videoUrl": "https://www.youtube.com/watch?v=acdT3KxET40",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Bước 1",
+            "content": "Đăng nhập vào App VietinBank iPay trên điện thoại.",
+            "image": "./assets/2.1.png"
+          },
+          {
+            "step": 2,
+            "title": "Bước 2",
+            "content": "Vào mục 'Danh sách thẻ' trên giao diện chính.",
+            "image": "./assets/2.2.png"
+          },
+          {
+            "step": 3,
+            "title": "Bước 3",
+            "content": "Xem đúng thẻ cần đóng, bấm vào phần 'Xem thêm'.",
+            "image": "./assets/2.3.png"
+          },
+          {
+            "step": 4,
+            "title": "Bước 4",
+            "content": "Chọn tính năng 'Đóng thẻ' trong danh sách thao tác.",
+            "image": "./assets/2.4.png"
+          },
+          {
+            "step": 5,
+            "title": "Bước 5",
+            "content": "Nhập mã OTP xác thực được gửi đến điện thoại.",
+            "image": "./assets/2.5.png"
+          },
+          {
+            "step": 6,
+            "title": "Bước 6",
+            "content": "Xác nhận OTP để hoàn tất đóng thẻ.",
+            "image": "./assets/2.6.png"
+          }
+        ]
+      },
+      {
+        "id": "cccd-verification",
+        "title": "Xác thực CCCD gắn chip",
+        "description": "Chuẩn hóa định danh tài khoản bằng Căn cước công dân gắn chip để đảm bảo an toàn giao dịch.",
+        "videoUrl": "https://www.youtube.com/watch?v=9yYn3SbMT9A",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Bước 1: Chuẩn bị thiết bị",
+            "content": "Đảm bảo điện thoại có hỗ trợ NFC và đã bật tính năng NFC trong Cài đặt (iPhone mặc định bật; Android vào Cài đặt > Kết nối > NFC).",
+            "image": "./assets/3.1.png"
+          },
+          {
+            "step": 2,
+            "title": "Bước 2: Chuẩn bị CCCD gắn chip",
+            "content": "Sử dụng Căn cước công dân gắn chip chính chủ còn hiệu lực, mặt chip kim loại sạch sẽ, không bị trầy xước.",
+            "image": "./assets/3.2.png"
+          },
+          {
+            "step": 3,
+            "title": "Bước 3: Chụp ảnh hai mặt CCCD",
+            "content": "Đặt thẻ trong khung hình, chụp rõ nét mặt trước và mặt sau, không để bị lóa sáng hay mất góc thẻ.",
+            "image": "./assets/3.3.png"
+          },
+          {
+            "step": 4,
+            "title": "Bước 4: Đọc dữ liệu chip NFC",
+            "content": "Áp sát mặt chip CCCD vào mặt sau điện thoại (vị trí gần camera đối với iPhone hoặc giữa thân máy đối với Android) và giữ yên 3-5 giây cho đến khi báo đọc thành công.",
+            "image": "./assets/3.7.png"
+          }
+        ]
+      },
+      {
+        "id": "biometric-update",
+        "title": "Hướng dẫn cập nhật sinh trắc học",
+        "description": "Tuân thủ Quyết định 2345/QĐ-NHNN bảo vệ an toàn chuyển tiền trên 10 triệu đồng/lần.",
+        "videoUrl": "https://www.youtube.com/watch?v=9yYn3SbMT9A",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Bước 1",
+            "content": "Đăng nhập VietinBank iPay, chọn tính năng Cập nhật sinh trắc học hoặc thông báo yêu cầu trên ứng dụng.",
+            "image": "./assets/3.1.png"
+          },
+          {
+            "step": 2,
+            "title": "Bước 2",
+            "content": "Click vào nút 'Bắt đầu chụp' để tiến hành thu thập dữ liệu căn cước.",
+            "image": "./assets/3.2.png"
+          },
+          {
+            "step": 3,
+            "title": "Bước 3",
+            "content": "Chụp mặt trước Căn cước công dân gắn chip rõ nét trong khung hình.",
+            "image": "./assets/3.3.png"
+          },
+          {
+            "step": 4,
+            "title": "Bước 4",
+            "content": "Chụp mặt sau Căn cước công dân gắn chip theo hướng dẫn của hệ thống.",
+            "image": "./assets/3.4.png"
+          },
+          {
+            "step": 5,
+            "title": "Bước 5",
+            "content": "Đọc hướng dẫn quét khuôn mặt và bấm vào nút 'Đã hiểu'.",
+            "image": "./assets/3.5.png"
+          },
+          {
+            "step": 6,
+            "title": "Bước 6",
+            "content": "Đưa gương mặt vào khung hình elip, thực hiện các cử chỉ theo hiệu lệnh trên màn hình.",
+            "image": "./assets/3.6.png"
+          },
+          {
+            "step": 7,
+            "title": "Bước 7",
+            "content": "Đặt mặt trước CCCD ngay mặt sau điện thoại để đọc chip NFC và giữ cố định trong giây lát.",
+            "image": "./assets/3.7.png"
+          },
+          {
+            "step": 8,
+            "title": "Bước 8",
+            "content": "Kiểm tra lại thông tin cá nhân đã trích xuất và bấm 'Tiếp tục' để hoàn tất cập nhật sinh trắc học.",
+            "image": "./assets/3.8.png"
+          }
+        ]
+      }
+    ]
+  },
+  "downloadIpay": {
+    "title": "Tải App VietinBank iPay",
+    "subtitle": "Ngân hàng số toàn diện - Mọi tiện ích trong tầm tay",
+    "description": "Tải ứng dụng VietinBank iPay ngay hôm nay để trải nghiệm dịch vụ ngân hàng hiện đại: miễn 100% phí chuyển tiền, gửi tiết kiệm online nhận thêm lãi suất hấp dẫn, bảo mật sinh trắc học tối tân.",
+    "ios": {
+      "name": "VietinBank iPay trên iPhone (iOS)",
+      "url": "https://apps.apple.com/vn/app/vietinbank-ipay/id689963454?l=vi",
+      "badge": "Tải trên App Store"
+    },
+    "android": {
+      "name": "VietinBank iPay trên điện thoại Android",
+      "url": "https://play.google.com/store/apps/details?id=com.vietinbank.ipay",
+      "badge": "Khám phá trên Google Play"
+    },
+    "features": [
+      {
+        "title": "Miễn 100% Phí Chuyển Khoản",
+        "description": "Chuyển tiền nhanh 24/7 trong và ngoài hệ thống hoàn toàn miễn phí."
+      },
+      {
+        "title": "Cộng Lãi Tiết Kiệm Online",
+        "description": "Gửi tiết kiệm trực tuyến được hưởng lãi suất ưu đãi cao hơn tại quầy lên tới 0.4%/năm."
+      },
+      {
+        "title": "Sinh Trắc Học An Toàn Tuyệt Đối",
+        "description": "Bảo vệ tài khoản với công nghệ nhận diện khuôn mặt và xác thực chip CCCD hiện đại."
+      },
+      {
+        "title": "Thanh Toán & Đặt Vé Đa Tiện Ích",
+        "description": "Thanh toán hóa đơn điện nước, nạp tiền điện thoại, đặt vé máy bay, tàu xe, xem phim chỉ với 1 chạm."
+      }
+    ]
+  },
+  "game": {
+    "title": "Chờ vui – Chơi hay – Nhận quà liền tay",
+    "brandName": "VietinBank",
+    "subtitle": "Vượt qua 20 thử thách để nhận voucher 2 lít xăng",
+    "instruction": "Chạm màn hình hoặc nhấn phím Space để nhân vật bay lên",
+    "winScore": 20,
+    "voucherReward": "Voucher 2 lít xăng",
+    "voucherPrefix": "VB-",
+    "voucherNotice": "Vui lòng chụp màn hình hoặc đưa mã này cho nhân viên để nhận quà.",
+    "milestones": {
+      "level1": { "max": 4, "text": "Khởi động nhẹ nhàng!" },
+      "level2": { "max": 9, "text": "Tốt lắm, tiếp tục nào!" },
+      "level3": { "max": 14, "text": "Một nửa chặng đường rồi!" },
+      "level4": { "max": 19, "text": "Sắp nhận quà rồi!" },
+      "level5": { "max": 20, "text": "Xuất sắc!" }
+    },
+    "loseMessage": "Rất tiếc, bạn đã vượt qua {score}/20 thử thách",
+    "loseEncourage": "Chỉ còn một chút nữa thôi, hãy thử lại nhé!",
+    "winMessage": "Chúc mừng!",
+    "winDetail": "Bạn đã vượt qua 20 thử thách và đủ điều kiện nhận voucher 2 lít xăng."
+  },
+  "savingsCalculator": {
+    "title": "Công cụ tính lãi suất tiền gửi",
+    "subtitle": "Sản phẩm tiền gửi thông thường trả lãi sau",
+    "minAmount": 100000,
+    "defaultAmount": 100000000,
+    "defaultTerm": 12,
+    "defaultRate": 5.0,
+    "terms": [
+      { "months": 1, "rate": 2.2, "label": "1 Tháng" },
+      { "months": 2, "rate": 2.2, "label": "2 Tháng" },
+      { "months": 3, "rate": 2.5, "label": "3 Tháng" },
+      { "months": 6, "rate": 3.8, "label": "6 Tháng" },
+      { "months": 9, "rate": 3.8, "label": "9 Tháng" },
+      { "months": 12, "rate": 5.0, "label": "12 Tháng" },
+      { "months": 18, "rate": 5.2, "label": "18 Tháng" },
+      { "months": 24, "rate": 5.3, "label": "24 Tháng" },
+      { "months": 36, "rate": 5.3, "label": "36 Tháng" }
+    ],
+    "videoGuide": {
+      "title": "Video hướng dẫn gửi tiết kiệm VietinBank",
+      "url": "https://www.tiktok.com/@nguyentrangtkneu/video/7202579533806062875?is_from_webapp=1&sender_device=pc&web_id=7603681770291086866"
+    },
+    "errors": {
+      "invalidAmount": "Vui lòng nhập số tiền gửi hợp lệ (tối thiểu 100.000 VNĐ).",
+      "invalidTerm": "Vui lòng chọn kỳ hạn gửi.",
+      "invalidRate": "Vui lòng nhập lãi suất hợp lệ."
+    }
+  },
+  "loanCalculator": {
+    "title": "Bảng tính lãi suất & Lịch trả nợ khoản vay",
+    "subtitle": "Phương thức trả gốc đều, lãi tính trên dư nợ giảm dần",
+    "defaultAssetValue": 2000000000,
+    "defaultLoanAmount": 1000000000,
+    "defaultTenorMonths": 60,
+    "defaultInterestRate": 8.5,
+    "repaymentCycles": [
+      { "id": "monthly", "name": "Hằng tháng", "divisor": 12 },
+      { "id": "quarterly", "name": "Hằng quý (3 tháng)", "divisor": 4 },
+      { "id": "semiAnnual", "name": "6 tháng", "divisor": 2 },
+      { "id": "yearly", "name": "Hằng năm", "divisor": 1 }
+    ],
+    "roundingOptions": [
+      { "id": "exact", "name": "Làm tròn đến đơn vị đồng" },
+      { "id": "thousand", "name": "Làm tròn đến 1.000 đồng" }
+    ]
+  },
+  "featuredProducts": {
+    "title": "Sản phẩm dịch vụ nổi bật",
+    "badge": "Nổi bật",
+    "description": "Khám phá các sản phẩm, ưu đãi và tiện ích VietinBank đang được giới thiệu tại chi nhánh.",
+    "ctaText": "Xem ngay",
+    "categories": [
+      { "id": "all", "label": "Tất cả" },
+      { "id": "personal", "label": "Cá nhân" },
+      { "id": "household", "label": "Hộ kinh doanh" },
+      { "id": "business", "label": "Doanh nghiệp" },
+      { "id": "promotions", "label": "Ưu đãi" },
+      { "id": "auction", "label": "Tài sản bảo đảm" }
+    ],
+    "items": [
+      {
+        "id": "prod-1",
+        "category": "household",
+        "title": "Mở tài khoản hộ kinh doanh",
+        "categoryLabel": "Dành cho hộ kinh doanh",
+        "image": "./assets/Mo_tai_khoan_ho_kinh_doanh.png",
+        "summary": "Gói giải pháp tài chính toàn diện cho Hộ kinh doanh: miễn phí chuyển khoản, tặng tài khoản số đẹp, QR cửa hàng chuyên nghiệp.",
+        "highlights": ["Miễn phí mở tài khoản", "Tặng biển bảng QR đặt quầy", "Hỗ trợ vay vốn lưu động lãi suất ưu đãi"]
+      },
+      {
+        "id": "prod-2",
+        "category": "personal",
+        "title": "Chạm POS rút tiền",
+        "categoryLabel": "Dành cho khách hàng cá nhân",
+        "image": "./assets/Cham_POS_rut_tien.png",
+        "summary": "Tiện ích rút tiền mặt bằng công nghệ chạm thẻ không tiếp xúc hoặc điện thoại thông minh tại POS siêu tốc.",
+        "highlights": ["Rút tiền nhanh chóng", "Không lo nuốt thẻ", "Bảo mật chip EMV tiêu chuẩn quốc tế"]
+      },
+      {
+        "id": "prod-3",
+        "category": "business",
+        "title": "Sản phẩm thu hộ KHDN",
+        "categoryLabel": "Dành cho khách hàng doanh nghiệp",
+        "image": "./assets/Thu_ho_KHDN.png",
+        "summary": "Giải pháp thu hộ dòng tiền bán hàng, quản lý doanh thu tự động cho chuỗi cửa hàng và doanh nghiệp phân phối.",
+        "highlights": ["Hạch toán doanh thu tức thời", "Đối soát trực tuyến 24/7", "Tích hợp phần mềm kế toán ERP"]
+      },
+      {
+        "id": "prod-4",
+        "category": "auction",
+        "title": "Bán đấu giá tài sản bảo đảm",
+        "categoryLabel": "Thông tin bán đấu giá tài sản bảo đảm",
+        "image": "./assets/Tai_san_bao_dam_1.jpg",
+        "summary": "Danh mục bất động sản, phương tiện vận tải và tài sản bảo đảm phát mại minh bạch, pháp lý rõ ràng, giá cạnh tranh.",
+        "highlights": ["Pháp lý minh bạch", "Giá khởi điểm hấp dẫn", "VietinBank hỗ trợ gói vay mua tài sản phát mại"]
+      },
+      {
+        "id": "prod-5",
+        "category": "promotions",
+        "title": "Gói ưu đãi lãi suất vay VietinBank SME & Bán lẻ",
+        "categoryLabel": "Ưu đãi đang triển khai",
+        "image": "./assets/Cham_POS_rut_tien.png",
+        "summary": "Chương trình ưu đãi lãi suất vay sản xuất kinh doanh và mua nhà chỉ từ 5.6%/năm với thời gian phê duyệt hồ sơ nhanh chóng.",
+        "highlights": ["Lãi suất cạnh tranh từ 5.6%/năm", "Hạn mức lên tới 85% giá trị tài sản", "Thời hạn vay lên tới 35 năm"]
+      }
+    ]
+  },
+  "branches": {
+    "title": "Danh sách phòng giao dịch & Chi nhánh",
+    "subtitle": "Hệ thống hơn 155 chi nhánh và gần 1.000 phòng giao dịch trên toàn quốc",
+    "selectedDefault": "kcn-trang-bang",
+    "branchesList": [
+      {
+        "id": "kcn-trang-bang",
+        "name": "Chi nhánh KCN Trảng Bàng",
+        "province": "Tây Ninh",
+        "locations": [
+          {
+            "id": "hoi-so-trang-bang",
+            "name": "Hội sở CN KCN Trảng Bàng",
+            "address": "1564A1, Quốc lộ 22, Khu phố An Bình, Phường An Tịnh, Thị xã Trảng Bàng, Tây Ninh",
+            "phone": "0276.3896389",
+            "image": "./assets/Hoi-so.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/esjTuKpymixS23Xn9",
+            "isHeadquarters": true
+          },
+          {
+            "id": "pgd-phuoc-dong",
+            "name": "PGD Phước Đông - CN KCN Trảng Bàng",
+            "address": "Số 42, Khu phố Phước Đức B, Phường Gia Lộc, Thị xã Trảng Bàng, Tây Ninh",
+            "phone": "0276.3534252",
+            "image": "./assets/PGD-Phuoc-Dong.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/pJ72JQHagVdXZdEH8",
+            "isHeadquarters": false
+          },
+          {
+            "id": "pgd-phuoc-trach",
+            "name": "PGD Phước Trạch - CN KCN Trảng Bàng",
+            "address": "Số 147, Ấp Bàu Vừng, Xã Phước Thạnh, Huyện Gò Dầu, Tây Ninh",
+            "phone": "0276.3896389",
+            "image": "./assets/PGD-Phuoc-Trach.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/RHestArPMTbmZ3B7A",
+            "isHeadquarters": false
+          },
+          {
+            "id": "pgd-trang-bang",
+            "name": "PGD Trảng Bàng - CN KCN Trảng Bàng",
+            "address": "Số 236, QL22, Khu phố Lộc Du, Phường Trảng Bàng, Thị xã Trảng Bàng, Tây Ninh",
+            "phone": "0276.3880144",
+            "image": "./assets/PGD-Trang-Bang.jfif",
+            "googleMapsUrl": "https://maps.app.goo.gl/skkUhLc3XBNnEqsu7",
+            "isHeadquarters": false
+          }
+        ]
+      },
+      {
+        "id": "bac-da-nang",
+        "name": "Chi nhánh Bắc Đà Nẵng",
+        "province": "Đà Nẵng",
+        "locations": [
+          {
+            "id": "hoi-so-bac-da-nang",
+            "name": "Hội sở CN Bắc Đà Nẵng",
+            "address": "Số 108 đường Nguyễn Tri Phương, Phường Chính Gián, Quận Thanh Khê, TP. Đà Nẵng",
+            "phone": "0236.3823456",
+            "image": "./assets/Hoi-so.jfif",
+            "googleMapsUrl": "https://maps.google.com/?q=VietinBank+Bac+Da+Nang",
+            "isHeadquarters": true
+          },
+          {
+            "id": "pgd-hoa-khanh",
+            "name": "PGD Hòa Khánh - CN Bắc Đà Nẵng",
+            "address": "Số 88 đường Tôn Đức Thắng, Phường Hòa Khánh Bắc, Quận Liên Chiểu, TP. Đà Nẵng",
+            "phone": "0236.3732456",
+            "image": "./assets/PGD-Phuoc-Dong.jfif",
+            "googleMapsUrl": "https://maps.google.com/?q=VietinBank+Hoa+Khanh+Da+Nang",
+            "isHeadquarters": false
+          }
+        ]
+      },
+      {
+        "id": "hoi-an",
+        "name": "Chi nhánh Hội An",
+        "province": "Quảng Nam",
+        "locations": [
+          {
+            "id": "hoi-so-hoi-an",
+            "name": "Hội sở CN Hội An",
+            "address": "Số 2 đường Phan Châu Trinh, Phường Minh An, TP. Hội An, Quảng Nam",
+            "phone": "0235.3912345",
+            "image": "./assets/Hoi-so.jfif",
+            "googleMapsUrl": "https://maps.google.com/?q=VietinBank+Hoi+An",
+            "isHeadquarters": true
+          },
+          {
+            "id": "pgd-cam-chau",
+            "name": "PGD Cẩm Châu - CN Hội An",
+            "address": "Số 345 đường Cửa Đại, Phường Cẩm Châu, TP. Hội An, Quảng Nam",
+            "phone": "0235.3923456",
+            "image": "./assets/PGD-Trang-Bang.jfif",
+            "googleMapsUrl": "https://maps.google.com/?q=VietinBank+Cam+Chau+Hoi+An",
+            "isHeadquarters": false
+          }
+        ]
+      }
+    ]
+  }
+}
